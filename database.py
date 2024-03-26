@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore")
 # d here to allow multiple threads to interact with the SQLite database.
 
 # Production Level databse
-SQL_ALCHEMY_DATABASE_URL = 'mysql+pymysql://root:5642@127.0.0.1:3306/TodoAppDatabase'
+SQL_ALCHEMY_DATABASE_URL = 'postgresql://dsbqgxef:Ydc1kPoYApmX4DfQ5Db9Q07aKcufDIwT@rain.db.elephantsql.com/dsbqgxef'
 
 engine = create_engine(SQL_ALCHEMY_DATABASE_URL)
 
