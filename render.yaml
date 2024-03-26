@@ -1,7 +1,0 @@
-services:
-  - name: to_do_app
-    buildCommand:
-      - "sudo apt-get update"
-      - "sudo apt-get install -y libmpfr-dev"
-      - "pip install -r requirements.txt"
-    startCommand: "uvicorn main:app --host 0.0.0.0 --port 10000"
