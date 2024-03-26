@@ -1,0 +1,7 @@
+services:
+  - name: to_do_app
+    buildCommand:
+      - "sudo apt-get update"
+      - "sudo apt-get install -y libmpfr-dev"
+      - "pip install -r requirements.txt"
+    startCommand: "python main.py"
